@@ -1,0 +1,3 @@
+module Tomayo
+  VERSION = "0.0.1"
+end
