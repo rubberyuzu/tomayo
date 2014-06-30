@@ -6,11 +6,11 @@ require 'tomayo/version'
 Gem::Specification.new do |spec|
   spec.name          = "tomayo"
   spec.version       = Tomayo::VERSION
-  spec.authors       = ["Allison Wong & rubberyuzu"]
+  spec.authors       = ["Allison Wong, rubberyuzu"]
   spec.email         = ["azywong@gmail.com, yuzu0125@gmail.com"]
   spec.summary       = %q{adds yo! to string}
   spec.description   = %q{adds yo! to string}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/rubberyuzu/tomayo"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
