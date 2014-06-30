@@ -5,6 +5,7 @@ module Tomayo
     input.to_s + ", yo!"
   end
 
-
-
+  def self.add_tomato(input, classname)
+    "<div style=\"color:tomato;\" class=\"#{classname.to_s}\">#{input.to_s}</div>"
+  end
 end
