@@ -7,5 +7,8 @@ describe Tomayo do
   it 'adds the tomato color' do
     expect(Tomayo.add_tomato("hi", "classname")).to eq "<div style=\"color:tomato;\" class=\"classname\">hi</div>"
   end
+  it 'adds color and yo' do
+        expect(Tomayo.tomayo_it("hi", "classname")).to eq "<div style=\"color:tomato;\" class=\"classname\">hi, yo!</div>"
+  end
 
 end

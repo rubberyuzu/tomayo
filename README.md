@@ -16,9 +16,22 @@ Or install it yourself as:
 
 ## Usage
 ```ruby
-Tomayo("hello")
+Tomayo.yo("hello")
 #=> hello, yo!
 ```
+
+```ruby
+Tomayo.tomato("hello", "what")
+#=> "<div style="color:tomato;" class="what">hello</div>"
+```
+* if you want to include it in an erb file, you must append output with .html_safe
+
+```ruby
+Tomayo.tomayo_it("hello", "what")
+#=> "<div style="color:tomato;" class="what">hello, yo!</div>"
+```
+* if you want to include it in an erb file, you must append output with .html_safe
+
 
 ## Contributing
 
